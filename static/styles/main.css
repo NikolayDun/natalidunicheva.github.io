@@ -1,0 +1,167 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+
+/*начинаются шрифты*/
+@font-face {
+    font-family: 'SegoeWP';
+    src: url('C:/Users/user/Desktop/site PINTEREST/newsite/static/fonts/ofont.ru_SegoeWP.ttf');
+    src: local('C:/Users/user/Desktop/site PINTEREST/newsite/static/fonts/ofont.ru_SegoeWP.ttf'), url('C:/Users/user/Desktop/site PINTEREST/newsite/static/fonts/ofont.ru_SegoeWP.ttf') format('woff'), url('C:/Users/user/Desktop/site PINTEREST/newsite/static/fonts/ofont.ru_SegoeWP.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'zerno';
+    src: url('C:/Users/user/Desktop/site PINTEREST/newsite/static/fonts/ofont.ru_Zerno.ttf');
+    src: local('Zapfino'), url('C:/Users/user/Desktop/site PINTEREST/newsite/static/fonts/ofont.ru_Zerno.ttf') format('woff'), url('C:/Users/user/Desktop/site PINTEREST/newsite/static/fonts/ofont.ru_Zerno.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Zapfino';
+    src: url('C:/Users/user/Desktop/site PINTEREST/newsite/static/fonts/ofont.ru_Zapfino.ttf');
+    src: local('Zapfino'), url('C:/Users/user/Desktop/site PINTEREST/newsite/static/fonts/ofont.ru_Zapfino.ttf') format('woff'), url('C:/Users/user/Desktop/site PINTEREST/newsite/static/fonts/ofont.ru_Zapfino.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SLABSTHIN';
+    src: url('C:/Users/user/Desktop/site PINTEREST/newsite/static/fonts/ofont.ru_SLABSTHIN.ttf');
+    src: local('C:/Users/user/Desktop/site PINTEREST/newsite/static/fonts/ofont.ru_SLABSTHIN.ttf'), url('C:/Users/user/Desktop/site PINTEREST/newsite/static/fonts/ofont.ru_SLABSTHIN.ttf') format('woff'), url('C:/Users/user/Desktop/site PINTEREST/newsite/static/fonts/ofont.ru_SLABSTHIN.ttf') format('truetype');
+}
+/*заканчиваются шрифты*/
+
+
+.mainbody{
+    display:block;
+    margin: 20px;
+
+}
+.mainbodycentr{
+    display:block;
+    text-align:center;
+}
+/*начинается верхнее меню*/
+.main {
+    display: inline-block;
+}
+
+.mainmenu li{
+ list-style:none;
+ display:inline-block;
+ height: auto;
+ width: 150px;
+ position: relative;
+}
+.mainmenu a {
+text-decoration: none;
+font-family: Zerno, sans-serif;
+font-size: 16px;
+display:block;
+padding: 0 10px;
+height: 40px;
+line-height:40px;
+transition:all .5s;
+}
+
+.submenu{
+ display: none;
+}
+
+
+.drop_menu_lessons:hover .submenu {
+    display: block;
+    position: absolute;
+    background-color: #f5f5f5;
+}
+
+
+
+
+/*заканчивается верхнее меню*/
+/*начинается основное тело сайта*/
+/*три картинки под главным фото*/
+.img3 {
+    height: 300px;
+}
+.main3imgblock {
+    display: inline-flex;
+    text-align:center;
+    justify-content: space-between;
+}
+.main3img1foto{
+    text-align: center;
+    display: inline-block;
+    padding: 0 15px;
+    width:300px;
+}
+.main3img2foto {
+    text-align: center;
+    display: inline-block;
+    padding: 0 15px;
+    width: 300px;
+}
+.main3img3foto {
+    text-align: center;
+    display: inline-block;
+    padding: 0 15px;
+    width: 300px;    
+}
+.div1 {
+    position: absolute;
+    text-align: center;
+    display:flex;
+}
+    .div2{
+    display:inline-block;
+    position:absolute;
+    text-align:center;     
+    }
+        .div2>a{
+            text-decoration:none;
+           
+        }
+
+        .body1 {
+            text-align: center;
+            padding: 20px 0;
+
+        }
+
+.textpodfoto{
+    display: flex;
+    width: 262px;
+
+}
+    .textpodfoto>p{
+        text-align:justify;
+    }
+
+    .natalifotoplustext {
+        display: inline-block;
+    }
+.maincentr{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.natalifoto{
+    display: inline-block;
+}
+
+
+
+/*заканчивается основное тело сайта*/
+/*начинается подвал*/
+.footer {
+    text-align: center;
+    padding: 20px 0;
+}
+.footer1 {
+    display: inline-block;
+    height: 200px;
+    padding: 0 20px;
+
+}
+.footerimg {
+    height: 200px;
+}
+/*заканчивается подвал*/
